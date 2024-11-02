@@ -1,0 +1,118 @@
+.landscapeContainer {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  margin-bottom: 4rem;
+}
+
+.landscapeContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 6s ease;
+}
+
+.landscapeContainer:hover img {
+  transform: scale(1.05);
+}
+
+.landscapeContainer div {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ffffff;
+  font-family: "Times New Roman", serif;
+  font-size: 2.5rem;
+  letter-spacing: 0.2em;
+  text-align: center;
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(4px);
+  width: auto;
+  white-space: nowrap;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.buttonContainer button,
+button {
+  background: transparent;
+  border: 1px solid #1a1a1a;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.buttonContainer button:hover,
+button:hover {
+  background-color: #1a1a1a;
+}
+
+.buttonContainer a,
+button a {
+  text-decoration: none;
+  color: #1a1a1a;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.875rem;
+  transition: color 0.3s ease;
+}
+
+.buttonContainer button:hover a,
+button:hover a {
+  color: #ffffff;
+}
+
+.description {
+  max-width: 600px;
+  margin: 0 auto 4rem;
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: #4a4a4a;
+  font-family: "Times New Roman", serif;
+  padding: 0 2rem;
+}
+
+button {
+  display: block;
+  margin: 0 auto 4rem;
+}
+
+@media (max-width: 768px) {
+  .landscapeContainer {
+    height: 60vh;
+  }
+
+  .landscapeContainer div {
+    font-size: 1.5rem;
+    bottom: 1rem;
+    width: 90%;
+    white-space: normal;
+  }
+
+  .buttonContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 2rem;
+  }
+
+  .buttonContainer button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .description {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+}

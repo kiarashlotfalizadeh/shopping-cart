@@ -1,6 +1,7 @@
-import { Link, Outlet } from "react-router-dom";
+import { Link, Routes, Route } from "react-router-dom";
 import styles from "./App.module.css";
 import cartIcon from "../assets/cart.svg";
+import HomePage from "../HomePage/HomePage";
 
 function App() {
   return (
@@ -24,7 +25,10 @@ function App() {
           Our Story
         </Link>
       </nav>
-      <Outlet />
+
+      <Routes>
+        <Route index element={<HomePage />} />
+      </Routes>
     </>
   );
 }
