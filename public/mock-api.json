@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "catagory": "essentials",
+    "name": "Cocooning Hoodie",
+    "material": "Cashmere",
+    "description": "The Cocooning hoodie envelops you in that rarest of luxuries - the ease of being truly at peace. The hooded round-neck design wraps you in the plush, jersey-knit luxury of cashmere fleece with an enveloping soft cut and a roomy patch pocket at the front. Ideal for leisurely days and evenings.",
+    "price": 1000,
+    "imageSrc": [
+      "https://media.loropiana.com/HYBRIS/FAO/FAO5128/6694A389-5026-4A32-9EBA-526B08E268EC/FAO5128_106I_LARGE.jpg?sw=1000&sh=1400",
+      "https://media.loropiana.com/HYBRIS/FAO/FAO5128/C5EF11BD-87DB-49FB-88F3-675EE3AC35AC/FAO5128_106I_LARGE.jpg?sw=1000&sh=1400",
+      "https://media.loropiana.com/HYBRIS/FAO/FAO5128/8ED8C991-74F9-422B-BBEC-9A520D9C6B74/FAO5128_106I_LARGE.jpg?sw=1000&sh=1400"
+    ]
+  },
+  {
+    "id": 2,
+    "catagory": "essentials",
+    "name": "Jubilee Polo Shirt",
+    "material": "Baby Cashmere",
+    "description": "Spun from the first delicate downy tufts of the cashmere kid, Baby Cashmere is an exquisite rarity - ethereally soft, ultra-fine fibres that whisper of nature's most precious gifts. This buttonless, long-sleeved polo shirt is a testament to the exquisite quality of yarn, whose dense cable pattern creates a tactile landscape of warmth and comfort. The natural colour of this precious fibre is preserved, allowing its inherent beauty to shine through.",
+    "price": 860,
+    "imageSrc": [
+      "https://media.loropiana.com/HYBRIS/FAO/FAO5103/60D35C6F-B733-4EBA-B85C-5ECC61FA28BE/FAO5103_108V_LARGE.jpg?sw=1000&sh=1400",
+      "https://media.loropiana.com/HYBRIS/FAO/FAO5103/8C293F74-5109-42E3-AF67-4646E2C1A0E9/FAO5103_108V_LARGE.jpg?sw=1000&sh=1400",
+      "https://media.loropiana.com/HYBRIS/FAO/FAO5103/25B3DB88-4D2D-48E8-8011-E2B4ABD45F6D/FAO5103_108V_LARGE.jpg?sw=1000&sh=1400"
+    ]
+  },
+  {
+    "id": 3,
+    "catagory": "essentials",
+    "name": "Cocooning Turtleneck",
+    "material": "Cashmere, Virgin Wool",
+    "description": "The Cocooning turtleneck envelops you in that rarest of luxuries - the ease of being truly at peace. This oversized knit is draped in exquisite cashmere fleece jersey. Unparalleled comfort with carefree sophistication.",
+    "price": 1000,
+    "imageSrc": [
+      "https://media.loropiana.com/HYBRIS/FAO/FAO4934/E99F765F-F0DB-493B-A3AF-AC09D4BE1B55/FAO4934_1230_LARGE.jpg?sw=1000&sh=1400",
+      "https://media.loropiana.com/HYBRIS/FAO/FAO4934/B2001E3F-AAAB-4DD5-A659-9C76E147ACFE/FAO4934_1230_LARGE.jpg?sw=1000&sh=1400",
+      "https://media.loropiana.com/HYBRIS/FAO/FAO4934/4002B3EF-28C4-44B6-A764-E4CADC319FD4/FAO4934_1230_LARGE.jpg?sw=1000&sh=1400"
+    ]
+  },
+  {
+    "id": 4,
+    "catagory": "essentials",
+    "name": "Cocooning Trousers",
+    "material": "Cashmere",
+    "description": "The Cocooning trousers envelop you in that rarest of luxuries - the ease of being truly at peace. Lounge in this loose pair crafted from cashmere fleece jersey. Wrapping your legs in a cosy, plush knit, they are ideal for downtime.",
+    "price": 860,
+    "imageSrc": [
+      "https://media.loropiana.com/HYBRIS/FAO/FAO5226/621A8048-A0A9-491B-BC93-9373130D60AC/FAO5226_106I_LARGE.jpg?sw=1000&sh=1400",
+      "https://media.loropiana.com/HYBRIS/FAO/FAO5226/FAA56979-EC57-42E7-8B7E-C6B3210F2762/FAO5226_106I_LARGE.jpg?sw=1000&sh=1400",
+      "https://media.loropiana.com/HYBRIS/FAO/FAO5226/9B2A50DC-9280-4375-9788-1B7F634FA940/FAO5226_106I_LARGE.jpg?sw=1000&sh=1400"
+    ]
+  },
+  {
+    "id": 5,
+    "catagory": "essentials",
+    "name": "Cocooning Crewneck",
+    "material": "Cashmere, Virgin Wool",
+    "description": "The Cocooning crewneck envelops you in that rarest of luxuries - the ease of being truly at peace. Cuddle up in sumptuous, relaxed sophistication with this oversized, long-sleeved crewneck jumper, crafted from fine cashmere fleece jersey and enhanced with dropped shoulder seams. Perfect for everyday casual wear.",
+    "price": 1000,
+    "imageSrc": [
+      "https://media.loropiana.com/HYBRIS/FAO/FAO4916/07C8E146-51AF-4FC8-B14B-92B4BDB96551/FAO4916_1230_LARGE.jpg?sw=1000&sh=1400",
+      "https://media.loropiana.com/HYBRIS/FAO/FAO4916/65283361-F1CC-4D2A-B19F-5F9E839A1041/FAO4916_1230_LARGE.jpg?sw=1000&sh=1400",
+      "https://media.loropiana.com/HYBRIS/FAO/FAO4916/B73A94E3-FF9E-4DEB-8982-3DAA572BD0C9/FAO4916_1230_LARGE.jpg?sw=1000&sh=1400"
+    ]
+  },
+  {
+    "id": 6,
+    "catagory": "essentials",
+    "name": "Katharina Sneaker",
+    "material": "Suede Calf Split",
+    "description": "For outdoor enthusiasts seeking refined performance, this classic hiking shoe is the result of an elegant collaboration between Lupiano and ROA. A reworking of ROA's signature Katharina shoe, the upper showcases Lupiano's impeccable fabric, accented by supple suede details. Highly flexible, it adapts seamlessly to a variety of terrains, providing a firm grip for hikes while remaining remarkably comfortable for everyday wear.",
+    "price": 460,
+    "imageSrc": [
+      "https://media.loropiana.com/HYBRIS/FAO/FAO0840/FA8C2262-A07F-4ADD-87AC-B8B017B1CE89/FAO0840_1230_LARGE.jpg?sw=1000&sh=1400",
+      "https://media.loropiana.com/HYBRIS/FAO/FAO0840/7F3CCFD5-E2B2-48C8-B36E-4B51A7B927CA/FAO0840_1230_LARGE.jpg?sw=1000&sh=1400",
+      "https://media.loropiana.com/HYBRIS/FAO/FAO0840/D7A5A069-1E76-4395-A766-F3B07A711B3E/FAO0840_1230_LARGE.jpg?sw=1000&sh=1400"
+    ]
+  },
+  {
+    "id": 7,
+    "catagory": "elevated-layers",
+    "name": "Jase Gilet",
+    "material": "Cotton, Cashmere",
+    "description": "The Jase gilet revels in the timeless appeal of denim, an ode to the time-honoured traditions of craftsmanship and the rugged organic texture that has delighted generations. Exuding easy sophistication, this unlined gilet is crafted from exclusive CashDenim® to a loose, relaxed fit. A distinctive standing collar in baby camel knit frames the neckline, while exposed patch pockets and a placket with visible buttons concealing the zip fastening add textural touches.",
+    "price": 1200,
+    "imageSrc": [
+      "https://media.loropiana.com/HYBRIS/FAO/FAO4459/2202800B-A58B-4734-BA55-5563DA0D2D30/FAO4459_B4QA_LARGE.jpg?sw=1000&sh=1400",
+      "https://media.loropiana.com/HYBRIS/FAO/FAO4459/E8ADC965-51B8-42C7-B6A5-5198FC406F3B/FAO4459_B4QA_LARGE.jpg?sw=1000&sh=1400",
+      "https://media.loropiana.com/HYBRIS/FAO/FAO4459/BFB3DF0E-F018-4C1F-B536-A3A673F0BC22/FAO4459_B4QA_LARGE.jpg?sw=1000&sh=1400"
+    ]
+  },
+  {
+    "id": 8,
+    "catagory": "elevated-layers",
+    "name": "Buttonless Polo-shirt",
+    "material": "Virgin Wool",
+    "description": "Polo crafted from Wish® wool, exceptionally fine fibre from selected Merino sheep bred in Australia and New Zealand. The knitted fabric has a clean, compact look. Relaxed cut with dropped shoulder.",
+    "price": 440,
+    "imageSrc": [
+      "https://media.loropiana.com/HYBRIS/FAL/FAL5279/52040DBB-4B18-4FA1-B20D-30F760CAB5B5/FAL5279_1230_LARGE.jpg?sw=1000&sh=1400",
+      "https://media.loropiana.com/HYBRIS/FAL/FAL5279/D4D3340F-65FF-433B-9535-816888740335/FAL5279_1230_LARGE.jpg?sw=1000&sh=1400",
+      "https://media.loropiana.com/HYBRIS/FAL/FAL5279/6159F864-380A-44C0-AECF-7ACC9991E1CF/FAL5279_1230_LARGE.jpg?sw=1000&sh=1400"
+    ]
+  },
+  {
+    "id": 9,
+    "catagory": "elevated-layers",
+    "name": "Loom Weekender Bag L50",
+    "material": "Silk, Cashmere",
+    "description": "The Loom Weekender bag pays homage to Lupiano's centuries-old textile heritage, with the metal bar beneath the flap evoking the gentle cascade of fabric draped across an artisan's loom - a subtle nod to the brand's storied weaving techniques. Uniquely textured yet lightweight in a beautiful blend of cashmere and silk, the refined padlock that closes the bag can be unfastened, giving it a more relaxed look. Loom can be worn closed or open without losing charm and personality. Even when worn unfolded, the bag gracefully closes by itself. The perfect bag for a weekend getaway.",
+    "price": 1800,
+    "imageSrc": [
+      "https://media.loropiana.com/HYBRIS/FAO/FAO9522/16B766A5-B665-456D-8768-EF84BF9E658C/FAO9522_B4PL_LARGE.jpg",
+      "https://media.loropiana.com/HYBRIS/FAO/FAO9522/756A5FEE-A565-40D3-91A4-5680D54518CC/FAO9522_B4PL_LARGE.jpg?sw=1000&sh=1400",
+      "https://media.loropiana.com/HYBRIS/FAO/FAO9522/197F5924-FA32-4FCC-8A2E-050CFBF06008/FAO9522_B4PL_LARGE.jpg?sw=1000&sh=1400"
+    ]
+  },
+  {
+    "id": 10,
+    "catagory": "elevated-layers",
+    "name": "Mees Trousers",
+    "material": "Virgin Wool",
+    "description": "Silently defying gravity and the cold, the Mees trousers are a second skin of ingenuity, offering warmth to your body as you glide through the alpine air. This regular-fit wool pair wraps the legs in technical comfort, with a straight leg design that tapers slightly at the bottom for a sleek silhouette. The fully water-repellent finish adds a sporty edge to this sophisticated piece.",
+    "price": 740,
+    "imageSrc": [
+      "https://media.loropiana.com/HYBRIS/FAO/FAO5250/0DF6D5B2-28AC-4AC1-A99A-1D0CEC1D10D8/FAO5250_H0SB_LARGE.jpg?sw=1000&sh=1400",
+      "https://media.loropiana.com/HYBRIS/FAO/FAO5250/5E3CC0A9-6F3C-4B48-9E2B-D03339BD2766/FAO5250_H0SB_LARGE.jpg?sw=1000&sh=1400",
+      "https://media.loropiana.com/HYBRIS/FAO/FAO5250/16B275B9-9B35-42AD-9E09-A220581E20F9/FAO5250_H0SB_LARGE.jpg?sw=1000&sh=1400"
+    ]
+  }
+]

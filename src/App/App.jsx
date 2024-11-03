@@ -2,6 +2,7 @@ import { Link, Routes, Route } from "react-router-dom";
 import styles from "./App.module.css";
 import cartIcon from "../assets/cart.svg";
 import HomePage from "../HomePage/HomePage";
+import EssentialsPage from "../EssentialsPage/EssentialsPage";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
 
       <Routes>
         <Route index element={<HomePage />} />
+        <Route path="/essentials" element={<EssentialsPage />} />
       </Routes>
     </>
   );
