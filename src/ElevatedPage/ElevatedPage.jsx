@@ -1,23 +1,23 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
-import styles from "./EssentialsPage.module.css";
+import styles from "./ElevatedPage.module.css";
 
-function EssentialsPage() {
-  const [essentialProducts, setEssentialProducts] = useState([]);
+function ElevatedPage() {
+  const [elevatedProducts, setElevatedProducts] = useState([]);
 
   useEffect(() => {
     fetch("/mock-api.json")
       .then((response) => response.json())
       .then((data) =>
-        setEssentialProducts(
-          data.filter((product) => product.catagory === "essentials")
+        setElevatedProducts(
+          data.filter((product) => product.catagory === "elevated-layers")
         )
       );
   }, []);
 
-  const productCards = essentialProducts.map((product) => (
+  const productCards = elevatedProducts.map((product) => (
     <Link
-      to={`/essentials/${product.name}`}
+      to={`/elevated-layers/${product.name}`}
       key={product.id}
       className={styles.productLink}
     >
@@ -32,11 +32,11 @@ function EssentialsPage() {
   return (
     <>
       <div className={styles.title}>
-        Essentials: Timeless Luxury for Every Day
+        Elevated Layers: The Art of Refined Layering
       </div>
       <div className={styles.productGrid}>{productCards}</div>
     </>
   );
 }
 
-export default EssentialsPage;
+export default ElevatedPage;

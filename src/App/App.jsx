@@ -1,10 +1,19 @@
 import { Link, Routes, Route } from "react-router-dom";
+import { useState } from "react";
 import styles from "./App.module.css";
 import cartIcon from "../assets/cart.svg";
 import HomePage from "../HomePage/HomePage";
 import EssentialsPage from "../EssentialsPage/EssentialsPage";
+import ElevatedPage from "../ElevatedPage/ElevatedPage";
+import ProductPage from "../ProductPage/ProductPage";
 
 function App() {
+  const [shoppingCart, setShoppingCart] = useState([]);
+
+  function handleCartUpdate(productName) {
+    setShoppingCart([...shoppingCart, productName]);
+  }
+
   return (
     <>
       <header>
@@ -30,6 +39,15 @@ function App() {
       <Routes>
         <Route index element={<HomePage />} />
         <Route path="/essentials" element={<EssentialsPage />} />
+        <Route
+          path="/essentials/:productName"
+          element={<ProductPage updateCart={handleCartUpdate} />}
+        />
+        <Route path="/elevated-layers" element={<ElevatedPage />} />
+        <Route
+          path="/elevated-layers/:productName"
+          element={<ProductPage updateCart={handleCartUpdate} />}
+        />
       </Routes>
     </>
   );
