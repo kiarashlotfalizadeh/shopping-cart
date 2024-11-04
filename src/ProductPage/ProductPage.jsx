@@ -16,7 +16,7 @@ function ProductPage({ updateCart }) {
   });
 
   function handleUpdate() {
-    updateCart(productName);
+    updateCart(product);
   }
 
   if (!product) {

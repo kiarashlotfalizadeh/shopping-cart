@@ -6,12 +6,18 @@ import HomePage from "../HomePage/HomePage";
 import EssentialsPage from "../EssentialsPage/EssentialsPage";
 import ElevatedPage from "../ElevatedPage/ElevatedPage";
 import ProductPage from "../ProductPage/ProductPage";
+import CartPage from "../CartPage/CartPage";
+import StoryPage from "../StoryPage/StoryPage";
 
 function App() {
   const [shoppingCart, setShoppingCart] = useState([]);
 
-  function handleCartUpdate(productName) {
-    setShoppingCart([...shoppingCart, productName]);
+  function handleCartUpdate(product) {
+    setShoppingCart([...shoppingCart, product]);
+  }
+
+  function removeItem(newArray) {
+    setShoppingCart(newArray);
   }
 
   return (
@@ -48,6 +54,13 @@ function App() {
           path="/elevated-layers/:productName"
           element={<ProductPage updateCart={handleCartUpdate} />}
         />
+        <Route
+          path="/cart"
+          element={
+            <CartPage cartArray={shoppingCart} updateCart={removeItem} />
+          }
+        />
+        <Route path="/our-story" element={<StoryPage />} />
       </Routes>
     </>
   );
